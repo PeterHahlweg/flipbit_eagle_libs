@@ -101,6 +101,34 @@
 <libraries>
 <library name="flipbit_fmc">
 <packages>
+<package name="XILINX_FMC_MOUNT_CS">
+<wire x1="-27.8892" y1="0" x2="-27.8892" y2="0.6858" width="0.127" layer="48"/>
+<wire x1="0" y1="-7.3406" x2="27.8892" y2="-7.3406" width="0.127" layer="48"/>
+<wire x1="27.8892" y1="7.3406" x2="0" y2="7.3406" width="0.127" layer="48"/>
+<wire x1="0" y1="7.3406" x2="-27.8892" y2="7.3406" width="0.127" layer="48"/>
+<wire x1="-27.8892" y1="7.3406" x2="-27.8892" y2="0.6858" width="0.127" layer="48"/>
+<wire x1="-27.8892" y1="0" x2="-27.8892" y2="-7.3406" width="0.127" layer="48"/>
+<wire x1="-27.8892" y1="-7.3406" x2="0" y2="-7.3406" width="0.127" layer="48"/>
+<text x="33.02" y="-10.16" size="0.8128" layer="26" rot="MR0">&gt;NAME</text>
+<wire x1="27.8892" y1="7.3406" x2="27.8892" y2="0.762" width="0.127" layer="48"/>
+<wire x1="27.8892" y1="0.762" x2="28.7782" y2="0.762" width="0.127" layer="48"/>
+<wire x1="28.7782" y1="0.762" x2="28.7782" y2="-0.762" width="0.127" layer="48"/>
+<wire x1="28.7782" y1="-0.762" x2="27.8892" y2="-0.762" width="0.127" layer="48"/>
+<wire x1="27.8892" y1="-0.762" x2="27.8892" y2="-7.3406" width="0.127" layer="48"/>
+<wire x1="34.036" y1="-8.89" x2="34.036" y2="8.89" width="0.127" layer="22"/>
+<wire x1="34.036" y1="8.89" x2="-34.036" y2="8.89" width="0.127" layer="22"/>
+<wire x1="-34.036" y1="8.89" x2="-34.036" y2="-8.89" width="0.127" layer="22"/>
+<wire x1="-34.036" y1="-8.89" x2="34.036" y2="-8.89" width="0.127" layer="22"/>
+<circle x="-31.496" y="-2.0066" radius="3.175" width="0" layer="41"/>
+<circle x="-31.496" y="-2.0066" radius="3.175" width="0" layer="42"/>
+<circle x="31.496" y="-2.0066" radius="3.175" width="0" layer="41"/>
+<circle x="31.496" y="-2.0066" radius="3.175" width="0" layer="42"/>
+<pad name="S1" x="31.496" y="-2.0066" drill="2.6924" diameter="4.445"/>
+<pad name="S2" x="-31.496" y="-2.0066" drill="2.6924" diameter="4.445"/>
+<text x="-33.02" y="9.652" size="1.27" layer="48">Card Side</text>
+<circle x="-27.1907" y="3.048" radius="0.635" width="0.127" layer="48"/>
+<circle x="27.1907" y="0" radius="0.635" width="0.127" layer="48"/>
+</package>
 <package name="ASP-134488-01">
 <smd name="A01" x="24.765" y="-5.715" dx="0.635" dy="0.635" layer="16" roundness="100"/>
 <smd name="A02" x="23.495" y="-5.715" dx="0.635" dy="0.635" layer="16" roundness="100"/>
@@ -536,34 +564,6 @@
 <hole x="27.1907" y="0" drill="1.3208"/>
 <hole x="-27.1907" y="3.048" drill="1.3208"/>
 <rectangle x1="-27.8892" y1="-7.3406" x2="27.8892" y2="7.3406" layer="40" rot="R180"/>
-</package>
-<package name="XILINX_FMC_MOUNT_CS">
-<wire x1="-27.8892" y1="0" x2="-27.8892" y2="0.6858" width="0.127" layer="48"/>
-<wire x1="0" y1="-7.3406" x2="27.8892" y2="-7.3406" width="0.127" layer="48"/>
-<wire x1="27.8892" y1="7.3406" x2="0" y2="7.3406" width="0.127" layer="48"/>
-<wire x1="0" y1="7.3406" x2="-27.8892" y2="7.3406" width="0.127" layer="48"/>
-<wire x1="-27.8892" y1="7.3406" x2="-27.8892" y2="0.6858" width="0.127" layer="48"/>
-<wire x1="-27.8892" y1="0" x2="-27.8892" y2="-7.3406" width="0.127" layer="48"/>
-<wire x1="-27.8892" y1="-7.3406" x2="0" y2="-7.3406" width="0.127" layer="48"/>
-<text x="33.02" y="-10.16" size="0.8128" layer="26" rot="MR0">&gt;NAME</text>
-<wire x1="27.8892" y1="7.3406" x2="27.8892" y2="0.762" width="0.127" layer="48"/>
-<wire x1="27.8892" y1="0.762" x2="28.7782" y2="0.762" width="0.127" layer="48"/>
-<wire x1="28.7782" y1="0.762" x2="28.7782" y2="-0.762" width="0.127" layer="48"/>
-<wire x1="28.7782" y1="-0.762" x2="27.8892" y2="-0.762" width="0.127" layer="48"/>
-<wire x1="27.8892" y1="-0.762" x2="27.8892" y2="-7.3406" width="0.127" layer="48"/>
-<wire x1="34.036" y1="-8.89" x2="34.036" y2="8.89" width="0.127" layer="22"/>
-<wire x1="34.036" y1="8.89" x2="-34.036" y2="8.89" width="0.127" layer="22"/>
-<wire x1="-34.036" y1="8.89" x2="-34.036" y2="-8.89" width="0.127" layer="22"/>
-<wire x1="-34.036" y1="-8.89" x2="34.036" y2="-8.89" width="0.127" layer="22"/>
-<circle x="-31.496" y="-2.0066" radius="3.175" width="0" layer="41"/>
-<circle x="-31.496" y="-2.0066" radius="3.175" width="0" layer="42"/>
-<circle x="31.496" y="-2.0066" radius="3.175" width="0" layer="41"/>
-<circle x="31.496" y="-2.0066" radius="3.175" width="0" layer="42"/>
-<pad name="S1" x="31.496" y="-2.0066" drill="2.6924" diameter="4.445"/>
-<pad name="S2" x="-31.496" y="-2.0066" drill="2.6924" diameter="4.445"/>
-<text x="-33.02" y="9.652" size="1.27" layer="48">Card Side</text>
-<circle x="-27.1907" y="3.048" radius="0.635" width="0.127" layer="48"/>
-<circle x="27.1907" y="0" radius="0.635" width="0.127" layer="48"/>
 </package>
 <package name="ASP-134486-01">
 <smd name="A01" x="24.765" y="-5.715" dx="0.635" dy="0.635" layer="1" roundness="100"/>
@@ -1031,7 +1031,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="FMC_HPC_AB">
+<symbol name="ASP_AB">
 <pin name="A01" x="-15.24" y="48.26" length="middle"/>
 <pin name="A02" x="-15.24" y="45.72" length="middle"/>
 <pin name="A03" x="-15.24" y="43.18" length="middle"/>
@@ -1116,10 +1116,9 @@
 <wire x1="10.16" y1="50.8" x2="10.16" y2="-53.34" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-53.34" x2="-10.16" y2="-53.34" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-53.34" x2="-10.16" y2="50.8" width="0.254" layer="94"/>
-<text x="-10.16" y="-55.88" size="1.778" layer="97">ASP-134486-01 </text>
 <text x="-10.16" y="52.07" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="FMC_HPC_CD">
+<symbol name="ASP_CD">
 <pin name="C01" x="-15.24" y="48.26" length="middle"/>
 <pin name="C02" x="-15.24" y="45.72" length="middle"/>
 <pin name="C03" x="-15.24" y="43.18" length="middle"/>
@@ -1204,10 +1203,9 @@
 <wire x1="10.16" y1="50.8" x2="10.16" y2="-53.34" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-53.34" x2="-10.16" y2="-53.34" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-53.34" x2="-10.16" y2="50.8" width="0.254" layer="94"/>
-<text x="-10.16" y="-55.88" size="1.778" layer="97">ASP-134486-01 </text>
 <text x="-8.89" y="52.07" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="FMC_HPC_EF">
+<symbol name="ASP_EF">
 <pin name="E01" x="-15.24" y="48.26" length="middle"/>
 <pin name="E02" x="-15.24" y="45.72" length="middle"/>
 <pin name="E03" x="-15.24" y="43.18" length="middle"/>
@@ -1293,9 +1291,8 @@
 <wire x1="10.16" y1="-53.34" x2="-10.16" y2="-53.34" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-53.34" x2="-10.16" y2="50.8" width="0.254" layer="94"/>
 <text x="-10.16" y="52.07" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-55.88" size="1.778" layer="97">ASP-134486-01 </text>
 </symbol>
-<symbol name="FMC_HPC_GH">
+<symbol name="ASP_GH">
 <pin name="G01" x="-15.24" y="48.26" length="middle"/>
 <pin name="G02" x="-15.24" y="45.72" length="middle"/>
 <pin name="G03" x="-15.24" y="43.18" length="middle"/>
@@ -1381,9 +1378,8 @@
 <wire x1="10.16" y1="-53.34" x2="-10.16" y2="-53.34" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-53.34" x2="-10.16" y2="50.8" width="0.254" layer="94"/>
 <text x="-10.16" y="52.07" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-55.88" size="1.778" layer="97">ASP-134486-01 </text>
 </symbol>
-<symbol name="FMC_HPC_JK">
+<symbol name="ASP_JK">
 <pin name="J01" x="-15.24" y="48.26" length="middle"/>
 <pin name="J02" x="-15.24" y="45.72" length="middle"/>
 <pin name="J03" x="-15.24" y="43.18" length="middle"/>
@@ -1469,7 +1465,6 @@
 <wire x1="10.16" y1="-53.34" x2="-10.16" y2="-53.34" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-53.34" x2="-10.16" y2="50.8" width="0.254" layer="94"/>
 <text x="-10.16" y="52.07" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-55.88" size="1.778" layer="97">ASP-134486-01 </text>
 </symbol>
 <symbol name="FMC_SHIELD">
 <pin name="S1" x="-15.24" y="0" length="middle"/>
@@ -1484,13 +1479,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FMC_HPC_M">
+<deviceset name="APS_HPC_M">
 <gates>
-<gate name="G$1" symbol="FMC_HPC_AB" x="-76.2" y="63.5" addlevel="must"/>
-<gate name="G$2" symbol="FMC_HPC_CD" x="0" y="63.5" addlevel="must"/>
-<gate name="G$3" symbol="FMC_HPC_EF" x="76.2" y="63.5" addlevel="must"/>
-<gate name="G$4" symbol="FMC_HPC_GH" x="-76.2" y="-63.5" addlevel="must"/>
-<gate name="G$5" symbol="FMC_HPC_JK" x="0" y="-63.5" addlevel="must"/>
+<gate name="G$1" symbol="ASP_AB" x="-76.2" y="63.5"/>
+<gate name="G$2" symbol="ASP_CD" x="0" y="63.5"/>
+<gate name="G$3" symbol="ASP_EF" x="76.2" y="63.5"/>
+<gate name="G$4" symbol="ASP_GH" x="-76.2" y="-63.5"/>
+<gate name="G$5" symbol="ASP_JK" x="0" y="-63.5"/>
 </gates>
 <devices>
 <device name="" package="ASP-134488-01">
@@ -1918,13 +1913,13 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FMC_HPC_F">
+<deviceset name="APS_HPC_F">
 <gates>
-<gate name="G$1" symbol="FMC_HPC_AB" x="-76.2" y="63.5" addlevel="must"/>
-<gate name="G$2" symbol="FMC_HPC_CD" x="0" y="63.5" addlevel="must"/>
-<gate name="G$3" symbol="FMC_HPC_EF" x="76.2" y="63.5" addlevel="must"/>
-<gate name="G$4" symbol="FMC_HPC_GH" x="-76.2" y="-63.5" addlevel="must"/>
-<gate name="G$5" symbol="FMC_HPC_JK" x="0" y="-63.5" addlevel="must"/>
+<gate name="G$1" symbol="ASP_AB" x="-76.2" y="63.5"/>
+<gate name="G$2" symbol="ASP_CD" x="0" y="63.5"/>
+<gate name="G$3" symbol="ASP_EF" x="76.2" y="63.5"/>
+<gate name="G$4" symbol="ASP_GH" x="-76.2" y="-63.5"/>
+<gate name="G$5" symbol="ASP_JK" x="0" y="-63.5"/>
 </gates>
 <devices>
 <device name="" package="ASP-134486-01">
@@ -2420,9 +2415,9 @@ DIN A4, landscape with extra doc field</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="flipbit_fmc" deviceset="FMC_HPC_M" device=""/>
+<part name="U$1" library="flipbit_fmc" deviceset="APS_HPC_M" device=""/>
 <part name="U$2" library="flipbit_fmc" deviceset="XILINX_FMC_MOUNT_CS" device=""/>
-<part name="U$3" library="flipbit_fmc" deviceset="FMC_HPC_F" device=""/>
+<part name="U$3" library="flipbit_fmc" deviceset="APS_HPC_F" device=""/>
 <part name="U$4" library="flipbit_fmc" deviceset="XILINX_FMC_MOUNT_BS" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
